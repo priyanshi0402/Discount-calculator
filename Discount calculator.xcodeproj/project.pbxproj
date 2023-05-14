@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27A7815FE3450CCE09218EFA /* Pods_Discount_calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0A45D0B20AC1A01E0AB419 /* Pods_Discount_calculator.framework */; };
 		5B71189A2A0A000C00E54039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7118992A0A000C00E54039 /* AppDelegate.swift */; };
 		5B71189C2A0A000C00E54039 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71189B2A0A000C00E54039 /* SceneDelegate.swift */; };
 		5B71189E2A0A000C00E54039 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71189D2A0A000C00E54039 /* ViewController.swift */; };
 		5B7118A12A0A000C00E54039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B71189F2A0A000C00E54039 /* Main.storyboard */; };
 		5B7118A32A0A000F00E54039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7118A22A0A000F00E54039 /* Assets.xcassets */; };
 		5B7118A62A0A000F00E54039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B7118A42A0A000F00E54039 /* LaunchScreen.storyboard */; };
+		5BC8EB502A0B9464002CFBDB /* DiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8EB4F2A0B9464002CFBDB /* DiscountViewController.swift */; };
+		5BC8EB522A0B96A2002CFBDB /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8EB512A0B96A2002CFBDB /* PriceViewController.swift */; };
+		5BC8EB582A0B9924002CFBDB /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8EB542A0B9924002CFBDB /* CustomView.swift */; };
+		5BC8EB592A0B9924002CFBDB /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8EB552A0B9924002CFBDB /* CustomButton.swift */; };
+		5BC8EB5A2A0B9924002CFBDB /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8EB562A0B9924002CFBDB /* CustomTextField.swift */; };
+		5BC8EB5B2A0B9924002CFBDB /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8EB572A0B9924002CFBDB /* CustomLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EB9064D8F1596D8EEB728F5 /* Pods-Discount calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Discount calculator.debug.xcconfig"; path = "Target Support Files/Pods-Discount calculator/Pods-Discount calculator.debug.xcconfig"; sourceTree = "<group>"; };
 		5B7118962A0A000C00E54039 /* Discount calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Discount calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7118992A0A000C00E54039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B71189B2A0A000C00E54039 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,14 @@
 		5B7118A22A0A000F00E54039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B7118A52A0A000F00E54039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B7118A72A0A000F00E54039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC8EB4F2A0B9464002CFBDB /* DiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountViewController.swift; sourceTree = "<group>"; };
+		5BC8EB512A0B96A2002CFBDB /* PriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewController.swift; sourceTree = "<group>"; };
+		5BC8EB542A0B9924002CFBDB /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		5BC8EB552A0B9924002CFBDB /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5BC8EB562A0B9924002CFBDB /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		5BC8EB572A0B9924002CFBDB /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		6E0A45D0B20AC1A01E0AB419 /* Pods_Discount_calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Discount_calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10B923389770AB1C2B898F9 /* Pods-Discount calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Discount calculator.release.xcconfig"; path = "Target Support Files/Pods-Discount calculator/Pods-Discount calculator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A7815FE3450CCE09218EFA /* Pods_Discount_calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55A20C5771781BBE12559F7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E0A45D0B20AC1A01E0AB419 /* Pods_Discount_calculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57D69054633F8799B5DF6F84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EB9064D8F1596D8EEB728F5 /* Pods-Discount calculator.debug.xcconfig */,
+				F10B923389770AB1C2B898F9 /* Pods-Discount calculator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5B71188D2A0A000C00E54039 = {
 			isa = PBXGroup;
 			children = (
 				5B7118982A0A000C00E54039 /* Discount calculator */,
 				5B7118972A0A000C00E54039 /* Products */,
+				57D69054633F8799B5DF6F84 /* Pods */,
+				55A20C5771781BBE12559F7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,29 @@
 		5B7118982A0A000C00E54039 /* Discount calculator */ = {
 			isa = PBXGroup;
 			children = (
+				5BC8EB532A0B9924002CFBDB /* Custom Control */,
 				5B7118992A0A000C00E54039 /* AppDelegate.swift */,
 				5B71189B2A0A000C00E54039 /* SceneDelegate.swift */,
 				5B71189D2A0A000C00E54039 /* ViewController.swift */,
+				5BC8EB4F2A0B9464002CFBDB /* DiscountViewController.swift */,
+				5BC8EB512A0B96A2002CFBDB /* PriceViewController.swift */,
 				5B71189F2A0A000C00E54039 /* Main.storyboard */,
 				5B7118A22A0A000F00E54039 /* Assets.xcassets */,
 				5B7118A42A0A000F00E54039 /* LaunchScreen.storyboard */,
 				5B7118A72A0A000F00E54039 /* Info.plist */,
 			);
 			path = "Discount calculator";
+			sourceTree = "<group>";
+		};
+		5BC8EB532A0B9924002CFBDB /* Custom Control */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8EB542A0B9924002CFBDB /* CustomView.swift */,
+				5BC8EB552A0B9924002CFBDB /* CustomButton.swift */,
+				5BC8EB562A0B9924002CFBDB /* CustomTextField.swift */,
+				5BC8EB572A0B9924002CFBDB /* CustomLabel.swift */,
+			);
+			path = "Custom Control";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B7118AA2A0A000F00E54039 /* Build configuration list for PBXNativeTarget "Discount calculator" */;
 			buildPhases = (
+				A0782C2E58DEC5DC6272DA66 /* [CP] Check Pods Manifest.lock */,
 				5B7118922A0A000C00E54039 /* Sources */,
 				5B7118932A0A000C00E54039 /* Frameworks */,
 				5B7118942A0A000C00E54039 /* Resources */,
+				A945E820EEB336D4D0871585 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +185,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A0782C2E58DEC5DC6272DA66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Discount calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A945E820EEB336D4D0871585 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Discount calculator/Pods-Discount calculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Discount calculator/Pods-Discount calculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Discount calculator/Pods-Discount calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B7118922A0A000C00E54039 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5B71189E2A0A000C00E54039 /* ViewController.swift in Sources */,
+				5BC8EB5B2A0B9924002CFBDB /* CustomLabel.swift in Sources */,
 				5B71189A2A0A000C00E54039 /* AppDelegate.swift in Sources */,
 				5B71189C2A0A000C00E54039 /* SceneDelegate.swift in Sources */,
+				5BC8EB582A0B9924002CFBDB /* CustomView.swift in Sources */,
+				5BC8EB5A2A0B9924002CFBDB /* CustomTextField.swift in Sources */,
+				5BC8EB592A0B9924002CFBDB /* CustomButton.swift in Sources */,
+				5BC8EB502A0B9464002CFBDB /* DiscountViewController.swift in Sources */,
+				5BC8EB522A0B96A2002CFBDB /* PriceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +382,7 @@
 		};
 		5B7118AB2A0A000F00E54039 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB9064D8F1596D8EEB728F5 /* Pods-Discount calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,23 +394,28 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.discountcalculator.ios.Discount-calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.discountcalculator.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5B7118AC2A0A000F00E54039 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F10B923389770AB1C2B898F9 /* Pods-Discount calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,18 +427,22 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.discountcalculator.ios.Discount-calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.discountcalculator.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
